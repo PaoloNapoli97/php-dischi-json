@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+  background-color: #06131f;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+}
+
+.logo img {
+  align-items: center;
+  height: 50px;
+}
+
+main {
+  background-color: #1d2d3c;
+}
+
+.ms-card-container {
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  color: white;
+  height: 100%;
+  background-color: #112030;
+}
